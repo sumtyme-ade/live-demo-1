@@ -37,7 +37,6 @@ with tab2:
     st.markdown("""Demonstrating our ability to model noisy, high-frequency data without training or retraining, our API was used to build a four-timeframe network (1, 2, 3, and 4-second intervals) to model the market dynamics of the SPY ETF.""")
     st.markdown("""The technology successfully anticipated a market decline 10 minutes before Trump's tariff announcement on April 2nd, 2025.""")
     
-    video_file = open("20252905.mp4", "rb")
-    video_bytes = video_file.read()
+    video_bytes = "https://github.com/sumtyme-ade/live-demo-1/releases/download/v1.0.0/20252905.mp4"
 
     st.video(video_bytes)
